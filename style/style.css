@@ -68,13 +68,6 @@ nav{
   gap: 8px;
 }
 
-
-
-
-
-
-
-
 /* Banner design */
 .banner {
   padding: 100px 494px 100px 492px;
@@ -91,6 +84,10 @@ nav{
   align-items: center;
   position: relative;
 }
+
+
+
+
 .circle-img {
   max-width: 350px;
   max-height: 350px;
@@ -213,6 +210,10 @@ nav{
     "Exclusive-Interviews   Exclusive-Interviews   Rich-Resources ";
 }
 
+
+
+
+
 /* featured design */
 #Featured {
   max-width: 1200px;
@@ -248,6 +249,10 @@ nav{
 .span{
   color: #00ff88;
 }
+
+
+
+
 /* hosting-banner-design */
 .hosting-banner{
   background-color: #351165;
@@ -273,55 +278,31 @@ nav{
   gap:8px;
   cursor: pointer;
 }
+  /* footer design */
+ .footer-section {
+   padding-top: 30px;
+  }
 
+#footer-side{
+background-image:url(../assets/footer-bg.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding-top: 120px;
+padding-bottom: 120px;
+}
 
+.footer-icon{
+  display: grid;
+ grid-auto-flow: column;
+  gap: 40px;
+  margin-top: 32px;
+  margin-bottom:32px;
+  justify-content: center;
+  cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* resposive part */
 @media screen and (max-width:576px){
   .nav-menu, .btn{
     display: none;
@@ -384,26 +365,22 @@ grid-template-areas:
   height: 150px;
 }
 
-
+#footer-side{
+padding: 0px;
+background-size:cover;
+width: 100%;
+}
+.icon {
+justify-content: center;
+}
+.footer-icon {
+  display: grid;
+  grid-auto-flow:row ;
+  grid-template-columns: repeat(2, 80px);
+  gap: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
