@@ -71,7 +71,7 @@ nav{
 /* Banner design */
 .banner {
   padding: 100px 494px 100px 492px;
-  background-image: url("./assets/hero-bg.png");
+  background-image: url("../assets/hero-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
